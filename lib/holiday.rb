@@ -85,6 +85,10 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_string = holiday.to_s
       capitalize_array = holiday_string.split
 
+      capitalize_array.each do ||
+
+      end
+
       puts "  #{holiday_string.capitalize}: #{supplies_array.join(", ")}"
     end
   end
